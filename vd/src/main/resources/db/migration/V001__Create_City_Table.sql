@@ -1,0 +1,4 @@
+CREATE TABLE city
+(
+id INT PRIMARY KEY, name VARCHAR NOT NULL, country_code VARCHAR NOT NULL, district VARCHAR NOT NULL, population VARCHAR NOT NULL
+);
