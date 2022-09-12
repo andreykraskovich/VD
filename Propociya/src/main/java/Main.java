@@ -24,11 +24,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        String data = scanner.nextLine();
+
+
         Giraffe giraffe = new Giraffe();
         Pyramid pyramid = new Pyramid();
         Byte customByte = new Byte();
-
-        System.out.println(DATA);
 
         try {
 
